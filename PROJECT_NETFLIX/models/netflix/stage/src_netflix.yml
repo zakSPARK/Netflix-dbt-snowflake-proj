@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: netflix
+    database: PROJ30DB
+    schema: PROJ30DEV
+    tables:
+      - name: TITLES
+      - name: CREDITS

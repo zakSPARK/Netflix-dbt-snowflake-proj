@@ -1,0 +1,33 @@
+PROJECT_NETFLIX:
+  outputs:
+    dev:
+      account: wwmzytk-td30658
+      database: PROJ30DB
+      password: zakSNOW:;234
+      role: ACCOUNTADMIN
+      schema: PROJ30DEV
+      threads: 1
+      type: snowflake
+      user: ZAKSNOW002
+      warehouse: COMPUTE_WH
+    transform:
+      account: wwmzytk-td30658
+      database: PROJ30DB
+      password: zakSNOW:;234
+      role: ACCOUNTADMIN
+      schema: PROJ30TRANSFORM
+      threads: 1
+      type: snowflake
+      user: ZAKSNOW002
+      warehouse: COMPUTE_WH
+    prod:
+      account: wwmzytk-td30658
+      database: PROJ30DB
+      password: zakSNOW:;234
+      role: ACCOUNTADMIN
+      schema: PROJ30PROD
+      threads: 1
+      type: snowflake
+      user: ZAKSNOW002
+      warehouse: COMPUTE_WH
+  target: dev
